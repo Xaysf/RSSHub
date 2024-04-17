@@ -722,6 +722,26 @@
     "name": "0818 团",
     "url": "0818tuan.com"
   },
+  "0x80": {
+    "routes": {
+      "/blog": {
+        "path": "/blog",
+        "categories": [
+          "blog"
+        ],
+        "example": "/0x80/blog",
+        "url": "0x80.pl/notesen.html",
+        "name": "Articles",
+        "maintainers": [
+          "xnum"
+        ],
+        "location": "index.ts"
+      }
+    },
+    "name": "Wojciech Muła",
+    "url": "0x80.pl",
+    "description": ""
+  },
   "141jav": {
     "routes": {
       "/{.*}?": {
@@ -2447,6 +2467,120 @@
     "name": "A 姐分享",
     "url": "nsfw.abskoop.com"
   },
+  "accessbriefing": {
+    "routes": {
+      "/:category{.+}?": {
+        "path": "/:category{.+}?",
+        "name": "Articles",
+        "url": "accessbriefing.com",
+        "maintainers": [
+          "nczitzk"
+        ],
+        "example": "/accessbriefing/latest/news",
+        "parameters": {
+          "category": "Category, Latest News by default"
+        },
+        "description": ":::tip\n  If you subscribe to [Latest News](https://www.accessbriefing.com/latest/news)，where the URL is `https://www.accessbriefing.com/latest/news`, extract the part `https://www.accessbriefing.com/` to the end, and use it as the parameter to fill in. Therefore, the route will be [`/accessbriefing/latest/news`](https://rsshub.app/accessbriefing/latest/news).\n  :::\n\n  #### Latest\n\n  | Category                                                                               | ID                                                                                              |\n  | -------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |\n  | [News](https://www.accessbriefing.com/latest/news)                                     | [latest/news](https://rsshub.app/target/site/latest/news)                                       |\n  | [Products & Technology](https://www.accessbriefing.com/latest/products-and-technology) | [latest/products-and-technology](https://rsshub.app/target/site/latest/products-and-technology) |\n  | [Rental News](https://www.accessbriefing.com/latest/rental-news)                       | [latest/rental-news](https://rsshub.app/target/site/latest/rental-news)                         |\n  | [People](https://www.accessbriefing.com/latest/people)                                 | [latest/people](https://rsshub.app/target/site/latest/people)                                   |\n  | [Regualtions & Safety](https://www.accessbriefing.com/latest/regualtions-safety)       | [latest/regualtions-safety](https://rsshub.app/target/site/latest/regualtions-safety)           |\n  | [Finance](https://www.accessbriefing.com/latest/finance)                               | [latest/finance](https://rsshub.app/target/site/latest/finance)                                 |\n  | [Sustainability](https://www.accessbriefing.com/latest/sustainability)                 | [latest/sustainability](https://rsshub.app/target/site/latest/sustainability)                   |\n\n  #### Insight\n\n  | Category                                                                          | ID                                                                                        |\n  | --------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |\n  | [Interviews](https://www.accessbriefing.com/insight/interviews)                   | [insight/interviews](https://rsshub.app/target/site/insight/interviews)                   |\n  | [Longer reads](https://www.accessbriefing.com/insight/longer-reads)               | [insight/longer-reads](https://rsshub.app/target/site/insight/longer-reads)               |\n  | [Videos and podcasts](https://www.accessbriefing.com/insight/videos-and-podcasts) | [insight/videos-and-podcasts](https://rsshub.app/target/site/insight/videos-and-podcasts) |\n  ",
+        "categories": [
+          "new-media"
+        ],
+        "features": {
+          "requireConfig": false,
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportRadar": true,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false
+        },
+        "radar": [
+          {
+            "source": [
+              "accessbriefing.com/:category*"
+            ],
+            "target": "/:category"
+          },
+          {
+            "title": "Latest - News",
+            "source": [
+              "accessbriefing.com/latest/news"
+            ],
+            "target": "/latest/news"
+          },
+          {
+            "title": "Latest - Products & Technology",
+            "source": [
+              "accessbriefing.com/latest/products-and-technology"
+            ],
+            "target": "/latest/products-and-technology"
+          },
+          {
+            "title": "Latest - Rental News",
+            "source": [
+              "accessbriefing.com/latest/rental-news"
+            ],
+            "target": "/latest/rental-news"
+          },
+          {
+            "title": "Latest - People",
+            "source": [
+              "accessbriefing.com/latest/people"
+            ],
+            "target": "/latest/people"
+          },
+          {
+            "title": "Latest - Regualtions & Safety",
+            "source": [
+              "accessbriefing.com/latest/regualtions-safety"
+            ],
+            "target": "/latest/regualtions-safety"
+          },
+          {
+            "title": "Latest - Finance",
+            "source": [
+              "accessbriefing.com/latest/finance"
+            ],
+            "target": "/latest/finance"
+          },
+          {
+            "title": "Latest - Sustainability",
+            "source": [
+              "accessbriefing.com/latest/sustainability"
+            ],
+            "target": "/latest/sustainability"
+          },
+          {
+            "title": "Insight - Interviews",
+            "source": [
+              "accessbriefing.com/insight/interviews"
+            ],
+            "target": "/insight/interviews"
+          },
+          {
+            "title": "Insight - Longer reads",
+            "source": [
+              "accessbriefing.com/insight/longer-reads"
+            ],
+            "target": "/insight/longer-reads"
+          },
+          {
+            "title": "Insight - Videos and podcasts",
+            "source": [
+              "accessbriefing.com/insight/videos-and-podcasts"
+            ],
+            "target": "/insight/videos-and-podcasts"
+          }
+        ],
+        "location": "index.ts"
+      }
+    },
+    "name": "Access Briefing",
+    "url": "accessbriefing.com",
+    "categories": [
+      "new-media"
+    ],
+    "description": ""
+  },
   "acfun": {
     "routes": {
       "/article/:categoryId/:sortType?/:timeRange?": {
@@ -4050,6 +4184,37 @@
           "kt286"
         ],
         "location": "exchange-repair.ts"
+      },
+      "/podcast/:id": {
+        "path": "/podcast/:id",
+        "categories": [
+          "multimedia"
+        ],
+        "example": "/apple/podcast/id1559695855",
+        "parameters": {
+          "id": "播客id，可以在 Apple 播客app 内分享的播客的 URL 中找到"
+        },
+        "features": {
+          "requireConfig": false,
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false
+        },
+        "radar": [
+          {
+            "source": [
+              "podcasts.apple.com/cn/podcast/:id"
+            ]
+          }
+        ],
+        "name": "播客",
+        "maintainers": [
+          "Acring"
+        ],
+        "url": "https://www.apple.com.cn/apple-podcasts/",
+        "location": "podcast.ts"
       }
     },
     "name": "Apple",
@@ -6984,7 +7149,7 @@
             "target": ""
           }
         ],
-        "name": "Unknown",
+        "name": "每日壁纸",
         "maintainers": [
           "FHYunCai"
         ],
@@ -44653,12 +44818,14 @@
           "id": "专辑id, 可在专辑页 URL 中找到"
         },
         "features": {
-          "requireConfig": false,
-          "requirePuppeteer": false,
-          "antiCrawler": false,
-          "supportBT": false,
           "supportPodcast": true,
-          "supportScihub": false
+          "requireConfig": [
+            {
+              "name": "QINGTING_ID",
+              "optional": true,
+              "description": "用户id， 部分专辑需要会员身份，用户id可以通过从网页端登录蜻蜓fm后使用开发者工具，在控制台中运行JSON.parse(localStorage.getItem(\"user\")).qingting_id获取"
+            }
+          ]
         },
         "radar": [
           {
