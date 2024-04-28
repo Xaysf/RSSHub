@@ -5096,7 +5096,7 @@
   "/sogou/search/:keyword": [
     "CaoMeiYouRen"
   ],
-  "/sohu/mp/:xpt": [
+  "/sohu/mp/:id": [
     "HenryQW"
   ],
   "/solidot/:type?": [
