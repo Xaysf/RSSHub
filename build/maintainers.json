@@ -401,6 +401,11 @@
   "/apkpure/versions/:pkg/:region?": [
     "maple3142"
   ],
+  "/apnews/rss/:rss?": [
+    "zoenglinghou",
+    "mjysci",
+    "TonyRL"
+  ],
   "/apnews/topics/:topic?": [
     "zoenglinghou",
     "mjysci",
@@ -1272,6 +1277,9 @@
   "/coomer/posts": [
     "nczitzk"
   ],
+  "/copernicium/:category": [
+    "dzx-dzx"
+  ],
   "/copymanga/comic/:id/:chapterCnt?": [
     "btdwv",
     "marvolo666",
@@ -1385,6 +1393,9 @@
   ],
   "/daily/upvoted": [
     "Rjnishant530"
+  ],
+  "/daily/user/:userId": [
+    "TonyRL"
   ],
   "/damai/activity/:city/:category/:subcategory/:keyword?": [
     "hoilc"
@@ -1672,7 +1683,8 @@
     "nczitzk"
   ],
   "/douyu/room/:id": [
-    "DIYgod"
+    "DIYgod",
+    "ChaosTong"
   ],
   "/dribbble/keyword/:keyword": [
     "DIYgod",
@@ -1826,6 +1838,9 @@
   ],
   "/famitsu/category/:category?": [
     "TonyRL"
+  ],
+  "/fanbox/:creator": [
+    "KarasuShin"
   ],
   "/fansly/user/:username": [
     "TonyRL"
@@ -2130,7 +2145,10 @@
   "/github/notifications": [
     "zhzy0077"
   ],
-  "/github/pull/:user/:repo/:state?/:labels?": [],
+  "/github/pull/:user/:repo/:state?/:labels?": [
+    "hashman",
+    "TonyRL"
+  ],
   "/github/pulse/:user/:repo/:period?": [
     "jameschensmith"
   ],
@@ -2215,7 +2233,9 @@
   "/google/search/:keyword/:language?": [
     "CaoMeiYouRen"
   ],
-  "/gov/anhui/kjt/*": [],
+  "/gov/ah/kjt/:category{.+}?": [
+    "nczitzk"
+  ],
   "/gov/beijing/bjedu/gh/:urlPath?": [
     "TonyRL"
   ],
@@ -3040,7 +3060,7 @@
   "/ithome/tag/:name": [
     "Fatpandac"
   ],
-  "/ithome/zt/:id": [
+  "/ithome/zt/:id?": [
     "nczitzk"
   ],
   "/ithome/tw/feeds/:category": [
@@ -3372,7 +3392,10 @@
   "/line/today/:edition?/:tab?": [
     "nczitzk"
   ],
-  "/linkedin/jobs/:job_types/:exp_levels/:keywords?": [],
+  "/linkedin/jobs/:job_types/:exp_levels/:keywords?/:routeParams?": [
+    "BrandNewLifeJackie26",
+    "zhoukuncheng"
+  ],
   "/linkedin/cn/jobs/:keywords?": [
     "bigfei"
   ],
@@ -3494,6 +3517,9 @@
     "TonyRL"
   ],
   "/magazinelib/latest-magazine/:query?": [
+    "EthanWng97"
+  ],
+  "/magnumphotos/magazine": [
     "EthanWng97"
   ],
   "/mail/imap/:email/:folder{.+}?": [],
@@ -4152,6 +4178,12 @@
   ],
   "/oilchem/:type?/:category?/:subCategory?": [
     "nczitzk"
+  ],
+  "/olevod/vod/:id": [
+    "fang63625"
+  ],
+  "/olevod/vodlist": [
+    "fang63625"
   ],
   "/ollama/library": [
     "Nick22nd"
@@ -5472,16 +5504,24 @@
     "Fatpandac",
     "jameshih"
   ],
-  "/thecatcity/:term?": [
-    "TonyRL"
-  ],
   "/thecover/channel/:id?": [
     "yuxinliu-alex"
   ],
   "/thehindu/topic/:topic": [
     "TonyRL"
   ],
-  "/theinitium/:model?/:type?/:language?": [],
+  "/theinitium/author/:type/:language?": [
+    "AgFlore"
+  ],
+  "/theinitium/channel/:type?/:language?": [
+    "prnake"
+  ],
+  "/theinitium/follow/articles/:language?": [
+    "AgFlore"
+  ],
+  "/theinitium/tags/:type/:language?": [
+    "AgFlore"
+  ],
   "/themoviedb/collection/:id/:lang?": [
     "x2cf"
   ],
@@ -5523,6 +5563,10 @@
   ],
   "/thepaper/839studio": [
     "umm233"
+  ],
+  "/thepetcity/:term?": [
+    "TonyRL",
+    "bigfei"
   ],
   "/theverge/:hub?": [
     "HenryQW",
@@ -5639,6 +5683,9 @@
   ],
   "/trow/portal": [
     "shiningdracon"
+  ],
+  "/ttv/:category?": [
+    "dzx-dzx"
   ],
   "/tvb/news/:category?/:language?": [
     "nczitzk"
@@ -5789,6 +5836,9 @@
   ],
   "/upc/jsj/:type": [
     "Veagau"
+  ],
+  "/upc/jwc/:type?": [
+    "sddzhyc"
   ],
   "/upc/main/:type": [
     "Veagau"
@@ -6013,6 +6063,12 @@
   "/weibo/search/hot/:fulltext?": [
     "xyqfer",
     "shinemoon"
+  ],
+  "/wellcee/rent/:city/:district?": [
+    "TonyRL"
+  ],
+  "/wellcee/support-city": [
+    "TonyRL"
   ],
   "/wenku8/chapter/:id": [
     "zsakvo"
@@ -6294,6 +6350,9 @@
   "/yangtzeu/dongke/*": [],
   "/ycwb/:node": [
     "TimWu007"
+  ],
+  "/yenpress/series/:name": [
+    "TonyRL"
   ],
   "/ygkkk/": [
     "cnkmmk"
